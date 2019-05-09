@@ -1,0 +1,43 @@
+[
+  {
+    "geoblacklight_version": "1.0",
+    "dc_description_s": "Virginia Cities",
+    "dc_identifier_s": "uva-drew-test-cities",
+    "dc_rights_s": "Public",
+    "dc_title_s": "VA Cities",
+    "dc_type_s": "Dataset",
+    "dct_issued_s": "2015-02-28T18:53:27Z",
+    "dct_provenance_s": "UVa",
+    "dct_references_s": "{\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\":\"https://services2.arcgis.com/8k2PygHqghVevhzy/arcgis/rest/services/VA_Cities/FeatureServer/1\",\"http://www.isotc211.org/schemas/2005/gmd\":\"http://people.virginia.edu/~aam6g/VA_Cities_Translated.xml\"}",
+    "dct_spatial_sm": [
+      "Virginia"
+    ],
+    "layer_geom_type_s": "Point",
+    "layer_id_s": "urn:urn-ad0e6ebc-824e-4450-a0d9-987f2232724f",
+    "layer_modified_dt": "2016-07-18T15:17:46Z",
+    "layer_slug_s": "uva-drew-test-cities",
+    "solr_geom": "ENVELOPE(-83.751500, -74.973400, 39.406300, 36.434300)",
+    "solr_year_i": 2015
+  },
+  {
+    "geoblacklight_version": "1.0",
+    "dc_description_s": "Virginia Counties",
+    "dc_identifier_s": "uva-drew-test-counties",
+    "dc_rights_s": "Public",
+    "dc_title_s": "VA Counties",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "Shapefile",
+    "dct_issued_s": "2015-02-28T18:53:27Z",
+    "dct_provenance_s": "UVa",
+    "dct_references_s": "{\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\":\"https://services2.arcgis.com/8k2PygHqghVevhzy/ArcGIS/rest/services/VA_Counties_Generalized/FeatureServer/0\",\"http://www.isotc211.org/schemas/2005/gmd\":\"http://people.virginia.edu/~aam6g/VA_Cities_Translated.xml\",\"http://schema.org/downloadUrl\":\"https://uvalibrary.maps.arcgis.com/sharing/rest/content/items/de8f397f859141c190558f33ad0643e9/data\"}",
+    "dct_spatial_sm": [
+      "Virginia"
+    ],
+    "layer_geom_type_s": "Polygon",
+    "layer_id_s": "urn:urn-ad0e6ebc-824e-4450-a0d9-987f2232724f",
+    "layer_modified_dt": "2016-07-18T15:17:46Z",
+    "layer_slug_s": "uva-drew-test-counties",
+    "solr_geom": "ENVELOPE(-83.751500, -74.973400, 39.406300, 36.434300)",
+    "solr_year_i": 2015
+  }
+]
