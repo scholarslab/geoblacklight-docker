@@ -1,0 +1,3 @@
+[submodule "scripts/geoblacklight-converter"]
+	path = scripts/geoblacklight-converter
+	url = https://github.com/scholarslab/geoblacklight-converter.git
