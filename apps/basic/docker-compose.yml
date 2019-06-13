@@ -1,16 +1,35 @@
-geoblacklight:
-  image: geoblacklight/geoblacklight
-  ports:
-    - "3000:3000"
-  environment:
-    RAILS_ENV: development
-    SOLR_URL: http://solr:8983/solr/geoblacklight
-  links:
-    - solr
+version: '2'
 
-solr:
-  image: geoblacklight/solr
-  ports:
-    - "8983:8983"
-  volumes:
-    - ./solr/:/opt/solr-5.2.1/
+services:
+  geoblacklight:
+    container_name: geoblacklight
+    image: geoblacklight/geoblacklight
+    environment:
+      RAILS_ENV: development
+      SOLR_URL: http://solr:8983/solr/geoblacklight
+    depends_on:
+      - solr-gbl
+    labels:
+      - "traefik.docker.network=thenetwork"
+      - "traefik.enable=true"
+      - "traefik.port=80"
+      - "traefik.backend=geoblacklight"
+      - "traefik.frontend.rule=Host:gbl-dev.scholarslab.org"
+  solr-gbl:
+    container_name: solr-gbl
+    image: geoblacklight/solr
+    ports:
+      - "8983:8983"
+    volumes:
+      - ./solr/:/opt/solr-5.2.1/
+    labels:
+      - "traefik.docker.network=thenetwork"
+      - "traefik.enable=true"
+      - "traefik.port=8983"
+      - "traefik.backend=solr-gbl"
+      - "traefik.frontend.rule=Host:gbl-dev.scholarslab.org"
+
+networks:
+  default:
+    external:
+      name: thenetwork
