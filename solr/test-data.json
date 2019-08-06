@@ -12420,26 +12420,6 @@
         "layer_modified_dt": "2018-08-14T15:24:07Z"
     },
     {
-        "dct_references_s": "{\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\": \"https://maps7.arcgisonline.com/arcgis/rest/services/US_EPA_NorthAmerica_Ecoregions/MapServer/0\"}",
-        "layer_geom_type_s": "Polygon",
-        "geoblacklight_version": "1.0",
-        "dc_description_s": "This feature layer, utilizing data from the U.S. Environmental Protection Agency (EPA), depicts Level I Ecoregions of North America. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. These general purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and Non-Government Organizations (NGO) that are responsible for different types of resources within the same geographical areas. Ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another.At Level I, North America is divided into 15 broad ecological regions. These regions highlight major ecological areas and provide a backdrop to the ecological mosaic of the continent. Viewing the ecological hierarchy at this scale provides a context for seeing global or intercontinental patterns. Ecoregions - Level IFor more information: Level I EcoregionsData Currency: 2010For Feedback, please contact: ArcGIScomNationalMaps@esri.comThumbnail image courtesy of the NOAA National Ocean Service____________________________________________________________________________________________________________________________________________________________________________________Other Federal User Community federally focused content that may interest you U.S. Environmental Protection Agency            Open Data: U.S. EPAAnd for U.S. Environmental Protection Agency content on ArcGIS Online, please visit U.S. EPA Homepage  ",
-        "dc_identifier_s": "http://gis.lib.virginia.edu/a8d4b502d6404e8cb225fc3687e30080",
-        "layer_slug_s": "north-american-ecoregions-level-i",
-        "layer_id_s": "urn:urn-a8d4b502d6404e8cb225fc3687e30080",
-        "dc_title_s": "North American Ecoregions - Level I ",
-        "dc_rights_s": "Public",
-        "dct_provenance_s": "UVa",
-        "dc_type_s": "Dataset",
-        "dc_format_s": "Shapefile",
-        "solr_geom": "ENVELOPE(-192.997,-12.839,61.772,6.631)",
-        "dct_spatial_sm": [
-            "Virginia"
-        ],
-        "solr_year_i": "2017",
-        "layer_modified_dt": "2018-09-19T17:16:25Z"
-    },
-    {
         "dct_references_s": "{\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\": \"https://arcgis.atlantaregional.com/arcgis/rest/services/OpenData/FeatureServer/89\"}",
         "layer_geom_type_s": "Polygon",
         "geoblacklight_version": "1.0",
