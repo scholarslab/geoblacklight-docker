@@ -13700,26 +13700,6 @@
         "layer_modified_dt": "2018-08-03T08:53:24Z"
     },
     {
-        "dct_references_s": "{\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\": \"http://www.mshp.dps.mo.gov/arcgis/rest/services/NSOR/MapServer/7\"}",
-        "layer_geom_type_s": "Point",
-        "geoblacklight_version": "1.0",
-        "dc_description_s": "Location data used for this layer is a direct service from the Missouri State Highway Patrol.  Please review their disclaimer:http://www.mshp.dps.mo.gov/MSHPWeb/PatrolDivisions/CRID/SOR/SORPage.htmlIf you believe that any of the information found in the Registry is inaccurate, please contact the sheriff of the county where the sex offender resides or the Missouri State Highway Patrol, Criminal Justice Information Services Division, Sex Offender Registry Section, by e-mail at: mosor@mshp.dps.mo.gov",
-        "dc_identifier_s": "http://gis.lib.virginia.edu/32cf7aeef0a647b6965db52918557d6f",
-        "layer_slug_s": "nsor",
-        "layer_id_s": "urn:urn-32cf7aeef0a647b6965db52918557d6f",
-        "dc_title_s": "NSOR",
-        "dc_rights_s": "Public",
-        "dct_provenance_s": "UVa",
-        "dc_type_s": "Dataset",
-        "dc_format_s": "Shapefile",
-        "solr_geom": "ENVELOPE(-118.397,94.715,369.64,32.38)",
-        "dct_spatial_sm": [
-            "Virginia"
-        ],
-        "solr_year_i": "2019",
-        "layer_modified_dt": "2019-05-17T17:00:04Z"
-    },
-    {
         "dct_references_s": "{\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\": \"http://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Fire_Hazard_Assignment_12_Randall_Fowler_WFL/FeatureServer/0\"}",
         "layer_geom_type_s": "Point",
         "geoblacklight_version": "1.0",
