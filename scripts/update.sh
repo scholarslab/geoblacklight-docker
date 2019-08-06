@@ -1,3 +1,5 @@
+#!/bin/sh -
+
 git pull
 docker-compose down
 n=0
