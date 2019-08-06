@@ -1,5 +1,6 @@
 #!/bin/sh -
 
+cd /websites/gbl-dev.scholarslab.org/
 git pull
 docker-compose down
 n=0
