@@ -9,7 +9,7 @@ solr start
 # 	cd -
 
 #!/bin/bash
-sleep 120
+sleep 60
 for f in /opt/solr-5.2.1/*.json; do
     	[ -f "$f" ] || break
 	echo $f
